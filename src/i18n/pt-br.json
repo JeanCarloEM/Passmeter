@@ -1,0 +1,23 @@
+{
+  "rules"               : {
+    "length"            : "A senha deve conter ao menos 9 dígitos."
+    ,"distinct"         : "A senha deve ser formada por pelo menos 6 caracteres distintos."
+    ,"difCaseLetter"    : "A senha deve conter letras maiúsculas e minúsculas, desconsiderando o primeiro e o último digito."
+    ,"noSequential"     : "A senha não deve conter sequência crescente, decrescente ou repetitiva de digitos."
+    ,"noDate"           : "A senha não deve conter sequência que se assemelhe a data."
+    ,"strength"         : "A senha deve estar classificada quanto à força ao menos no nível médio."
+    ,"noWords"          : "A senha não deve conter palavras cuja soma total de dígitos atinja 60% do tamanho total da senha, devendo ainda haver um excedente mínimo de 3 dígitos além da(s) palavra(s)."
+    ,"specialChar"      : "A senha deve conter, desconsiderando o primeiro e o último digito, ao menos 2 caracteres não alfabéticos tais como pontuação, número ou símbolo."
+  },
+
+  "erros": {
+    "length"            : "A senha contém menos de 9 dígitos."
+    ,"distinct"         : "A senha possui menos de 6 caracteres distintos."
+    ,"difCaseLetter"    : "A senha, desconsiderando o primeiro e o último digito, não possui letras maiúsculas e/ou minúsculas."
+    ,"noSequential"     : "A senha contém dígitos sequenciais, crescente, decrescente ou repetitivos."
+    ,"noDate"           : "A senha contém sequência numérica que se assemelha a data."
+    ,"strength"         : "A senha está classificada com força menor que o nível médio."
+    ,"noWords"          : "A senha contém palavra(s) cuja soma de dígitos ultrapassa 60% do tamanho total da senha e/ou com menos de 3 dígitos excedentes."
+    ,"specialChar"      : "A senha não contém dois ou mais caracteres não alfabéticos tais como pontuação, número ou símbolo."
+  }
+}

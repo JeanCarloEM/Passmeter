@@ -1,0 +1,11 @@
+nbproject/
+/nbproject/
+/nbproject/*
+
+tests/
+/tests/
+/tests/*
+
+build/
+/build/
+/build/*
