@@ -1,4 +1,4 @@
-[Passmeter](http://opensource.jeancarloem.com/Passmeter/) 1.0 pre
+[Passmeter](http://opensource.jeancarloem.com/Passmeter/) 1.0.1
 ========================================
 
 [![Passmeter|JeanCarloEM](http://opensource.jeancarloem.com/Passmeter/recursos/img/passmeter.png)](http://jeancarloem.com)
