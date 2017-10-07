@@ -1,6 +1,8 @@
 [Passmeter](http://opensource.jeancarloem.com/Passmeter/) 1.0 pre
 ========================================
 
+[![Passmeter|JeanCarloEM](http://opensource.jeancarloem.com/Passmeter/recursos/img/passmeter.png)](http://jeancarloem.com)
+
 Passmeter é um completo medidor da força de senha que pretende ser multi-idioma e multi-linguagem. Através de sua API é possível obter diversas informações acerca da senha analisada como pontuação, tipos de caracteres utilizados, indicação para aceitação, força, dentre muitas outras.
 
 Atualmente está disponível em JAVASCRIPT e PHP.
