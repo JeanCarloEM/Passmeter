@@ -355,7 +355,7 @@ abstract class Passmeter{
     $sexp = '';
     
     foreach (static::$LUR[$idioma] as $key => $value) {
-      $sexp += "\p{" . $value . "}";
+      $sexp .= "\p{" . $value . "}";
     }
 
     $sexp .= '\p{Common}';

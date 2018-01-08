@@ -886,7 +886,7 @@ if (typeof(Passmeter) == "undefined" || !Passmeter) {
           }
 
           /* VALIDANDO URL */
-          if (url.match(/^(ht|f)tps?:\/\/[a-z0-9-\.]+\.[a-z]{2,4}\/?([^\s<>\#%"\,\{\}\\|\\\^\[\]`]+)?$/).length <= 0){
+          if (url.match(/^(ht|f)tps?:\/\/([a-z0-9-\.]+\.[a-z]{2,4}|localhost)\/?([^\s<>\#%"\,\{\}\\|\\\^\[\]`]+)?$/).length <= 0){
             throw Error('Impossível carregar dicionário: URL inválida: "'+url+'".');        
             return false;
           }
@@ -918,7 +918,7 @@ if (typeof(Passmeter) == "undefined" || !Passmeter) {
      /*
       * OBTENDO O DICIONÁRIO DE PALAVRAS
       */
-      if (!PM.cfg.uB.match(/^(ht|f)tps?:\/\/[a-z0-9-\.]+\.[a-z]{2,4}\/?([^\s<>\#%"\,\{\}\\|\\\^\[\]`]+)?$/)){
+      if (!PM.cfg.uB.match(/^(ht|f)tps?:\/\/([a-z0-9-\.]+\.[a-z]{2,4}|localhost)\/?([^\s<>\#%"\,\{\}\\|\\\^\[\]`]+)?$/)){
         throw Error('PASSMETER :: URL inválida: [' + PM.cfg.uB + "].");
       }           
 
